@@ -1,0 +1,21 @@
+{
+  "name": "nh-server",
+  "version": "1.0.0",
+  "description": "API for kids coding camp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "Eze Valentine Ifeanyichukwu",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^3.22.0",
+    "fastify-swagger": "^4.12.4",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
